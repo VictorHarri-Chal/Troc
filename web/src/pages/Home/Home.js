@@ -1,11 +1,11 @@
 import React from "react";
 import BodySection from "../../components/BodySection";
-import NavBar from "../../components/NavBar";
+import NavBarHome from "../../components/NavBarHome";
 
 const Home = () => {
   return (
     <>
-      <NavBar></NavBar>
+      <NavBarHome></NavBarHome>
       <BodySection></BodySection>
     </>
   );

@@ -9,7 +9,7 @@ import {
 } from "./style";
 import { Icon } from "@iconify/react";
 
-const NavBar = () => {
+const NavBarHome = () => {
   const [appName] = React.useState("Troc en Presqu'île");
   return (
     <>
@@ -26,4 +26,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBarHome;
